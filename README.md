@@ -38,12 +38,12 @@ https://oege.ie.hva.nl/~hardevc1//Portfolio/index.html
 #### Screenshot(s) van de eerste pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/1" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/1.png" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/3" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/3.png" width="375px" alt="omschrijving van de pagina">
 
 </details>
 
