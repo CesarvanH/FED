@@ -33,7 +33,7 @@ responsive
 
 ### Je opdracht:
 
-https://oege.ie.hva.nl/~hardevc1//Portfolio/index.html
+https://www.etq-amsterdam.com/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
