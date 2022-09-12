@@ -1,30 +1,39 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	line-height: 0;
 }
 
-button, summary {
+button,
+summary {
 	cursor: pointer;
 }
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text: #111;
+	--color-background: #0c0c0c;
+	--color-white: #fff;
+	--color-black: #000;
 }
 
+/*********************/
+/* FONTS */
+/*********************/
 
-
-
+@font-face {
+	font-family: 'Graphik';
+	src: url(./fonts/GraphikRegular.otf);
+}
 
 /****************/
 /* JOUW STYLING */
@@ -33,7 +42,55 @@ button, summary {
 /* jouw code */
 
 body {
-  color:var(--color-text);
-  background-color:var(--color-background);
+	color: var(--color-text);
+	background-color: var(--color-background);
+	font-family: 'Graphik';
+	font-size: 14px;
 }
 
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+ul {
+	list-style-type: none;
+}
+
+header {
+	margin: 1em;
+}
+
+header nav {
+	background-color: var(--color-white);
+	display: flex;
+	padding: 1.5em;
+}
+
+header nav ul {
+	display: flex;
+	width: 18%;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header nav ul:last-child {
+	margin-left: auto;
+	width: 15%;
+}
+
+header nav ul li {
+	line-height: 1em;
+}
+
+header nav ul li svg {
+	width: 7em;
+}
+
+header nav ul:last-child li:last-child {
+	color: var(--color-white);
+	background-color: var(--color-black);
+	padding: 0.5em;
+	border-radius: 100%;
+	line-height: 0.7;
+}
