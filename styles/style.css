@@ -69,28 +69,32 @@ header nav {
 
 header nav ul {
 	display: flex;
-	width: 18%;
 	align-items: center;
-	justify-content: space-between;
+	gap: 3em;
 }
 
 header nav ul:last-child {
 	margin-left: auto;
-	width: 15%;
 }
 
 header nav ul li {
 	line-height: 1em;
 }
 
-header nav ul li svg {
+header nav ul:nth-child(1) li:nth-child(1) {
 	width: 7em;
+}
+
+header nav ul li svg {
+	width: 100%;
 }
 
 header nav ul:last-child li:last-child {
 	color: var(--color-white);
 	background-color: var(--color-black);
-	padding: 0.5em;
-	border-radius: 100%;
-	line-height: 0.7;
+	border-radius: 50%;
+	width: 2em;
+	height: 2em;
+	padding: 0.6em;
+	text-align: center;
 }
