@@ -90,7 +90,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### de hele pagina:
 
-  <img src="readme-images/breakdown-1.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-2.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 
