@@ -86,10 +86,11 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
+  <img src="readme-images/breakdown-1.png" width="375px" alt="omschrijving van de pagina">
 
 ### de hele pagina:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-1.png" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu):
 
