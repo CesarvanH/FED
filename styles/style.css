@@ -7,12 +7,24 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	line-height: 0;
 }
 
 button,
 summary {
 	cursor: pointer;
+}
+
+.visually-hidden {
+	position: absolute;
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0,0,0,0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
 }
 
 /*********************/
@@ -21,19 +33,20 @@ summary {
 :root {
 	/* startje */
 	--color-text: #111;
-	--color-background: #0c0c0c;
+	--color-background: #fff;
 	--color-white: #fff;
+	--color-transwhite: rgba(255,255,255,.95);
 	--color-black: #000;
+	--color-grey: #eaeaea;
 }
 
 /*********************/
 /* FONTS */
 /*********************/
 
-@font-face {
-	font-family: 'Graphik';
-	src: url(./fonts/GraphikRegular.otf);
-}
+@import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
+
+@font-face {font-family: "Graphik Web Regular"; src: url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot"); src: url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff") format("woff"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.svg#Graphik Web Regular") format("svg"); }
 
 /****************/
 /* JOUW STYLING */
@@ -44,8 +57,21 @@ summary {
 body {
 	color: var(--color-text);
 	background-color: var(--color-background);
-	font-family: 'Graphik';
+	font-family: 'Graphik Web Regular';
 	font-size: 14px;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+	color: #313131;
+	font-size: 1em;
 }
 
 a {
@@ -57,14 +83,20 @@ ul {
 	list-style-type: none;
 }
 
+/* //////////////////////HEADER//////////////////////// */
+
 header {
-	margin: 1em;
+	padding: 1em;
+	position: fixed;
+	width: 100%;
 }
 
 header nav {
 	background-color: var(--color-white);
 	display: flex;
 	padding: 1.5em;
+	border: 1px solid var(--color-grey);
+    background: var(--color-transwhite);
 }
 
 header nav ul {
@@ -97,4 +129,28 @@ header nav ul:last-child li:last-child {
 	height: 2em;
 	padding: 0.6em;
 	text-align: center;
+}
+
+/* //////////////////////MAIN//////////////////////// */
+
+main .intro {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 3em;
+}
+
+main .intro img{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	width: 100%;
+}
+
+main .intro section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+main .intro section h3{
+	order: -1;
 }
