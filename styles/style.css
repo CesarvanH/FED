@@ -16,15 +16,15 @@ summary {
 
 .visually-hidden {
 	position: absolute;
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0,0,0,0) !important;
-  white-space: nowrap !important;
-  border: 0 !important;
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
 }
 
 /*********************/
@@ -35,7 +35,7 @@ summary {
 	--color-text: #111;
 	--color-background: #fff;
 	--color-white: #fff;
-	--color-transwhite: rgba(255,255,255,.95);
+	--color-transwhite: rgba(255, 255, 255, 0.95);
 	--color-black: #000;
 	--color-grey: #eaeaea;
 }
@@ -46,7 +46,20 @@ summary {
 
 @import url(//db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular);
 
-@font-face {font-family: "Graphik Web Regular"; src: url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot"); src: url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff") format("woff"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.svg#Graphik Web Regular") format("svg"); }
+@font-face {
+	font-family: 'Graphik Web Regular';
+	src: url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot');
+	src: url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.eot?#iefix')
+			format('embedded-opentype'),
+		url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff2')
+			format('woff2'),
+		url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.woff')
+			format('woff'),
+		url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.ttf')
+			format('truetype'),
+		url('//db.onlinewebfonts.com/t/105007d99d9df64c50cc24d696d79555.svg#Graphik Web Regular')
+			format('svg');
+}
 
 /****************/
 /* JOUW STYLING */
@@ -58,25 +71,50 @@ body {
 	color: var(--color-text);
 	background-color: var(--color-background);
 	font-family: 'Graphik Web Regular';
-	font-size: 14px;
+	font-size: 13px;
 }
 
 h1 {
-
 }
 
 h2 {
-
+	font-size: 28px;
+	font-weight: 400;
+	margin-bottom: 0.8em;
 }
 
 h3 {
-	color: #313131;
-	font-size: 1em;
+	color: #000;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 1.5em;
 }
 
 a {
 	text-decoration: none;
+	display: inherit;
 	color: inherit;
+	position: relative;
+	overflow: hidden;
+	padding-bottom: 0.3em;
+	margin-bottom: -0.3em;
+	align-self: flex-start;
+}
+
+a::after {
+	display: block;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: var(--color-black);
+	position: absolute;
+	transition: all 0.5s 0s ease;
+	bottom: 0;
+	left: 0;
+}
+
+a:hover::after {
+	left: 100%;
 }
 
 ul {
@@ -96,7 +134,7 @@ header nav {
 	display: flex;
 	padding: 1.5em;
 	border: 1px solid var(--color-grey);
-    background: var(--color-transwhite);
+	background: var(--color-transwhite);
 }
 
 header nav ul {
@@ -113,8 +151,20 @@ header nav ul li {
 	line-height: 1em;
 }
 
+header nav ul li a::after {
+	left: -100%;
+}
+
+header nav ul li a:hover::after {
+	left: 0em;
+}
+
 header nav ul:nth-child(1) li:nth-child(1) {
 	width: 7em;
+}
+
+header nav ul:nth-child(1) li:nth-child(1) a:after {
+	content: none;
 }
 
 header nav ul li svg {
@@ -132,25 +182,55 @@ header nav ul:last-child li:last-child {
 }
 
 /* //////////////////////MAIN//////////////////////// */
-
+/* Intro */
 main .intro {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 3em;
 }
 
-main .intro img{
+main .intro img {
 	grid-column-start: 1;
-	grid-column-end: 3;
+	grid-column-end: 4;
 	width: 100%;
 }
 
-main .intro section{
+main .intro section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 }
 
-main .intro section h3{
+main .intro section h3 {
 	order: -1;
+}
+
+main .intro section p {
+	margin-bottom: 1.5em;
+}
+
+/* Story */
+main .story {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 5.5em 3.1em;
+}
+
+main .story article {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2em;
+}
+
+main .story article img {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+main .story article section {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
