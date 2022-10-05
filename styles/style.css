@@ -37,7 +37,11 @@ summary {
 	--color-white: #fff;
 	--color-transwhite: rgba(255, 255, 255, 0.95);
 	--color-black: #000;
+	--color-lightgrey: #f4f4f4;
 	--color-grey: #eaeaea;
+	--color-textgrey: #bebebe;
+	--color-psgrey: #333;
+	--color-transgrey: rgba(0, 0, 0, 0.2);
 }
 
 /*********************/
@@ -67,6 +71,10 @@ summary {
 
 /* jouw code */
 
+input {
+	border: none;
+}
+
 body {
 	color: var(--color-text);
 	background-color: var(--color-background);
@@ -91,14 +99,16 @@ h3 {
 }
 
 a {
+	display: inline-block;
 	text-decoration: none;
-	display: inherit;
 	color: inherit;
 	position: relative;
 	overflow: hidden;
-	padding-bottom: 0.3em;
-	margin-bottom: -0.3em;
 	align-self: flex-start;
+}
+
+p a {
+	margin-bottom: -0.5em;
 }
 
 a::after {
@@ -115,6 +125,13 @@ a::after {
 
 a:hover::after {
 	left: 100%;
+}
+
+a.non-active::after {
+	left: 100%;
+}
+a.non-active:hover::after {
+	left: 0;
 }
 
 ul {
@@ -151,6 +168,11 @@ header nav ul li {
 	line-height: 1em;
 }
 
+header nav ul li a {
+	display: inline-block;
+	margin-bottom: -0.3em;
+}
+
 header nav ul li a::after {
 	left: -100%;
 }
@@ -182,11 +204,19 @@ header nav ul:last-child li:last-child {
 }
 
 /* //////////////////////MAIN//////////////////////// */
+main {
+	margin: 0 3em;
+}
+
+main > section {
+	margin: 5.5em 0;
+}
 /* Intro */
 main .intro {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-gap: 3em;
+	margin: 0 -3em;
 }
 
 main .intro img {
@@ -213,7 +243,6 @@ main .intro section p {
 main .story {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	margin: 5.5em 3.1em;
 }
 
 main .story article {
@@ -233,4 +262,165 @@ main .story article section {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+main .story article section p {
+	margin-bottom: 0.5em;
+}
+
+main .story article section a {
+	margin-top: 0.5em;
+}
+
+/* Favorites */
+main .favorites {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2.5em;
+}
+
+main .favorites h2 {
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+main .favorites article {
+	display: flex;
+	flex-direction: column;
+}
+
+main .favorites article img {
+	order: 1;
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+main .favorites article p {
+	order: 2;
+	margin-bottom: 0.5em;
+}
+
+/* Stores */
+main .stores {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 2.5em;
+}
+
+main .stores article {
+	display: flex;
+	flex-direction: column;
+}
+
+main .stores article img {
+	width: 100%;
+	margin-bottom: 1.3em;
+	order: 1;
+}
+
+main .stores article a {
+	order: 2;
+	margin-bottom: 0.5em;
+}
+
+main .stores article p {
+	order: 2;
+}
+
+/* //////////////////////FOOTER//////////////////////// */
+footer {
+	margin: 0 5.5em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	line-height: 1.6;
+	font-size: 14px;
+	margin-bottom: 3em;
+}
+
+footer section:nth-of-type(1) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+footer section:nth-of-type(6) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+footer section:nth-of-type(1) p {
+	max-width: 32em;
+}
+
+footer section form {
+	font-size: 13px;
+	line-height: 1;
+	display: grid;
+	grid-template-columns: 6em 80% 1fr;
+	gap: 2em;
+}
+
+footer section form input[type='email'] {
+	border-bottom: 1px solid var(--color-transgrey);
+}
+
+footer section form input[type='submit'] {
+	display: inline-block;
+	background: none;
+	text-align: left;
+	padding-bottom: 0.3em;
+	align-self: flex-start;
+	position: relative;
+	width: fit-content;
+}
+
+footer section:nth-of-type(7) {
+	grid-column-start: 4;
+	grid-column-end: 5;
+}
+
+footer section:nth-of-type(7) ul {
+	display: flex;
+}
+
+footer section:nth-of-type(7) ul li {
+	width: 2.5em;
+	margin-right: 1em;
+}
+
+footer section:nth-of-type(7) ul li svg {
+	width: 100%;
+	filter: grayscale(100%);
+}
+
+footer section:nth-of-type(8) {
+	grid-column-start: 6;
+	grid-column-end: 7;
+	font-size: 10px;
+}
+
+footer section:nth-of-type(9) {
+	font-size: 11px;
+	color: var(--color-textgrey);
+	margin-top: 3em;
+}
+
+footer section:nth-child(9) p a:after {
+	background-color: var(--color-textgrey);
+}
+
+footer section:nth-of-type(10) {
+	grid-row-start: 4;
+}
+
+footer section:nth-of-type(10) form {
+	margin-top: 3em;
+}
+
+footer section:nth-of-type(10) form select {
+	width: fit-content;
+	background-color: var(--color-lightgrey);
+	border: none;
+	padding: 0.5em;
+	color: var(--color-psgrey);
+	font-size: 16px;
 }
