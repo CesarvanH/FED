@@ -1,0 +1,64 @@
+/****************/
+/* PAGE STYLING */
+/****************/
+
+h2 {
+	font-size: 15px;
+	font-weight: 500;
+}
+
+p {
+	line-height: 1.6;
+}
+
+/* ////////Image section/////////// */
+main > section:nth-of-type(1) {
+	margin: 0 -1em;
+}
+main > section:nth-of-type(1) img {
+	width: 100%;
+	margin: 0.1em 0;
+}
+
+/* ////////USP/////////// */
+main > section:nth-of-type(2) ul li {
+	margin-left: 1.4em;
+	position: relative;
+	margin-top: 0.4em;
+}
+main > section:nth-of-type(2) ul li:before {
+	content: '';
+	background-image: url(/images/check.svg);
+	position: absolute;
+	width: 1em;
+	height: 1em;
+	left: -1.4em;
+	top: 0.3em;
+}
+
+main > section:nth-of-type(2) ul li p {
+	line-height: 1.6;
+}
+
+/* ////////Divider img/////////// */
+main > section:nth-of-type(3) {
+	margin: 0 -1em;
+}
+main > section:nth-of-type(3) img {
+	width: 100%;
+}
+
+/* ////////Descrition/////////// */
+main > section:nth-of-type(4) ul {
+	list-style-type: disc;
+	margin: 1.2em 0 1.2em 1.2em;
+}
+main > section:nth-of-type(4) ul li {
+	margin-top: 0.4em;
+}
+
+/* ////////Information/////////// */
+main > section:nth-of-type(5) section {
+	max-height: 1.5em;
+	overflow: hidden;
+}
