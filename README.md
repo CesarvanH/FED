@@ -82,7 +82,7 @@ Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal g
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>]
+  <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### de home pagina:
 
