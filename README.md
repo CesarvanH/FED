@@ -1,12 +1,5 @@
 # Procesverslag
 
-Markdown is een simpele manier om HTML te schrijven.  
-Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
-
-Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
-
-Nb. Door _open_ toe te voegen aan een _details_ element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
-
 ## Cesar van Hardeveld
 
 <details open>
@@ -38,12 +31,12 @@ https://www.etq-amsterdam.com/
 #### Screenshot(s) van de eerste pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/1.png" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/1.png" width="375px" alt="etq home">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/3.png" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/3.png" width="375px" alt="etq white shoe">
 
 </details>
 
@@ -54,31 +47,35 @@ hier de naam van de pagina
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen:
+De letters zijn vaak erg klein en moeilijk te lezen zelfs wanneer je geen handicaps hebt
 
 #### Screenreader
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+homepage titels voor story leest hij niet
+schoenen in carrousel is “link”
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+dit is makkelijk op te lossen door deze op een semantische manier in de website te verwerken.
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+dropdown van kleuren zegt niet zo veel hierom moet je veel klikken voor je weet wat je favoriete kleur is.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+een voorvertoning van de kleur laten zien
 
 #### Motoriek (shocks, elastiekjes)
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+veel buttons zijn erg klein.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+misschien een idee om de buttons te vergtoren in een bepaalde modus
 
 #### Visueel (brillen, contrast, kleurenblind, dark/light).
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+Te klein lettertype en of je moet inzoomen
+shoppingbag is klein.
+er kleine cursor
+geen Dark mode
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal geen verkeerde keuzen.
 
 </details>
 
@@ -94,12 +91,7 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldi
 
 ### dynamisch deel (bijv menu):
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
+  <img src="readme-images/breakdown-3.png" width="375px" alt="breakdown van een dynamisch deel">
 </details>
 
 ## Voortgang 1 (week 2)
