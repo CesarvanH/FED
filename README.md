@@ -83,9 +83,10 @@ Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal g
 
 <details>
   <summary>uitwerken na afloop 2e werkgroep</summary>
+### de home pagina:
   <img src="readme-images/breakdown-1.png" width="375px" alt="omschrijving van de pagina">
 
-### de hele pagina:
+### de product pagina:
 
   <img src="readme-images/breakdown-2.png" width="375px" alt="breakdown van de hele pagina">
 
