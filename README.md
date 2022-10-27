@@ -90,7 +90,7 @@ Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal g
 
 ### de product pagina:
 
-  <img src="readme-images/breakdown-2.png" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/breakdown-shoe.png" width="375px" alt="omschrijving van de pagina">
 
 ### dynamisch deel (bijv menu):
 
