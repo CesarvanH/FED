@@ -82,13 +82,15 @@ Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal g
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 2e werkgroep</summary>
+  <summary>uitwerken na afloop 2e werkgroep</summary>]
+
 ### de home pagina:
+
   <img src="readme-images/breakdown-1.png" width="375px" alt="omschrijving van de pagina">
 
 ### de product pagina:
 
-  <img src="readme-images/breakdown-2.png" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-2.png" width="375px" alt="omschrijving van de pagina">
 
 ### dynamisch deel (bijv menu):
 
