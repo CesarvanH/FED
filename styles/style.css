@@ -370,6 +370,9 @@ footer section:nth-of-type(10) form select {
 		padding-bottom: 1em;
 		position: relative;
 	}
+	footer section.open h2 {
+		border-bottom: 0;
+	}
 	footer section button {
 		position: absolute;
 		right: 1em;
