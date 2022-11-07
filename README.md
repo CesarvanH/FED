@@ -104,26 +104,25 @@ Al deze dingen kunnen vergroot worden en een darkmode is natuurlijk ook totaal g
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+De breakdown schetsen waren moeilijk en helemaal om dit vervolgens te vertalen naar html code was een challenge maar ik merkte wel dat het hielp om op deze manier een overzicht te krijgen.
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Nensi          | Lichelle        | Syarah            | Linsey  | Cesar           |
+| -------------- | --------------- | ----------------- | ------- | --------------- |
+| css selectoren | Breakdownschets | breakdown schets, | afwezig | Breakdownschets |
+|                |                 | basic html vragen |         |                 |
+| ...            | ...             | ...               | ...     | ...             |
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Ik kan nog wat beter aan mijn breakdownschetsen werken
+- Ik mis hier en daar wat duidelijkheid
+- Misschien is mijn website moeilijker dan gedacht
 
 </details>
 

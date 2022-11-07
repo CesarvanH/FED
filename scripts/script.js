@@ -1,77 +1,14 @@
 // JavaScript Document
-// information controll
-//first dropdown
-var informationButton1 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(1) button'
-);
-var informationHeader1 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(1) h3'
-);
-var informationSectie1 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(1)'
-);
+//menu controll
+var menuButton = document.querySelector('header nav:nth-of-type(1) button');
 
-informationButton1.addEventListener('click', toggleInformationInfo1);
-informationHeader1.addEventListener('click', toggleInformationInfo1);
+var menu = document.querySelector('header nav:nth-of-type(2)');
 
-function toggleInformationInfo1() {
-	informationSectie1.classList.toggle('open');
+menuButton.addEventListener('click', toggleMenu);
+
+function toggleMenu() {
+	menu.classList.toggle('open');
 }
-
-//second dropdown
-var informationButton2 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(2) button'
-);
-var informationHeader2 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(2) h3'
-);
-var informationSectie2 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(2)'
-);
-
-informationButton2.addEventListener('click', toggleInformationInfo2);
-informationHeader2.addEventListener('click', toggleInformationInfo2);
-
-function toggleInformationInfo2() {
-	informationSectie2.classList.toggle('open');
-}
-
-//third dropdown
-var informationButton3 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(3) button'
-);
-var informationHeader3 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(3) h3'
-);
-var informationSectie3 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(3)'
-);
-
-informationButton3.addEventListener('click', toggleInformationInfo3);
-informationHeader3.addEventListener('click', toggleInformationInfo3);
-
-function toggleInformationInfo3() {
-	informationSectie3.classList.toggle('open');
-}
-
-//forth dropdown
-var informationButton4 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(4) button'
-);
-var informationHeader4 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(4) h3'
-);
-var informationSectie4 = document.querySelector(
-	'main > section:nth-of-type(6) section:nth-of-type(4)'
-);
-
-informationButton4.addEventListener('click', toggleInformationInfo4);
-informationHeader4.addEventListener('click', toggleInformationInfo4);
-
-function toggleInformationInfo4() {
-	informationSectie4.classList.toggle('open');
-}
-
 // footer controll
 //first drop down
 var deFooterButton1 = document.querySelector(
@@ -138,12 +75,12 @@ function toggleFooterInfo4() {
 
 //fifth dropdown
 var deFooterButton5 = document.querySelector(
-	'footer section:nth-of-type(6) button'
+	'footer section:nth-of-type(5) button'
 );
 var deFooterHeader5 = document.querySelector(
-	'footer section:nth-of-type(6) h2'
+	'footer section:nth-of-type(5) h2'
 );
-var footerSectie5 = document.querySelector('footer section:nth-of-type(6)');
+var footerSectie5 = document.querySelector('footer section:nth-of-type(5)');
 
 deFooterButton5.addEventListener('click', toggleFooterInfo5);
 deFooterHeader5.addEventListener('click', toggleFooterInfo5);
