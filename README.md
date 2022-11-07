@@ -133,26 +133,23 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Stand van zaken
 
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik heb een begin gemaakt met de CSS en html mijn menu is al af en ik ben begonnen aan de footer
 
 ### Agenda voor meeting
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Nensi        | Lichelle    | Syarah      | Linsey      | Cesar      |
+| ------------ | ----------- | ----------- | ----------- | ---------- |
+| menu styling | geen vragen | Css-styling | geen vragen | lettertype |
+|              |             |             |             |            |
+| ...          | ...         | ...         | ...         | ...        |
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- misschien had ik beter nog niet aan mijn css kunnen werken want ik heb hier en daar wat html fouten gemaakt waardoor ik mijn selectoren weer allemaal opnieuw moet maken.
 
 </details>
 
