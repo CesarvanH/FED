@@ -221,15 +221,17 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Het is erg goed gegaan om de mobiele en de desktop variant eigenlijk bijna compleet na te bootsen bij de home-page. De websites zijn bijna identiek
 
 ### Dit was lastig/Dit is me niet gelukt:
+
+Het is helaas niet zo goed gelukt om alle interacties na te maken die de website heeft en om de website optimaal gebruikersvriendelijk te maken voor de mensen met bijvoorbeeld minder goed zicht.
 
 <img src="readme-images/result-2.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+De detail pagina voor schoenen bleken een stuk moeilijker na te maken dan ik dacht en met alle interacties die plaats moesten vinden werd het nog moeilijker. Echter is het me wel bijna gelukt dit na te maken.
 
 ### Dit was lastig/Dit is me niet gelukt:
 
@@ -237,17 +239,21 @@ Korte omschrijving met plaatjes
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+De desktop variant is ook bijna gelijk aan de variant van ETQ. De lettertypes komen niet helemaal overeen met het dikgedrukte omdat dit een betaald lettertype is.
 
 ### Dit was lastig/Dit is me niet gelukt:
+
+Waar ik erg veel moeite mee had was het namaken van de carrousel met javascript en ik heb dit hierom niet helemaal na gemaakt.
 
 <img src="readme-images/result-4.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Deze pagina was super ingewikkeld. Ik had al mijn html gemaakt op basis van de mobiele versie maar toen ik later de website groot maakte kwam ik er achter dat er veel ineens naast elkaar moest staan i.p.v onder elkaar zoals op de mobiele versie. Hierom moest ik extra sections toevoegen en elke keer weer mijn stijling hierop aanpassen.
 
 ### Dit was lastig/Dit is me niet gelukt:
+
+Het is mij niet gelukt om de desktop variant van deze pagina compleet na te maken er zijn hier een daar wat kleine verschillen wanneer het op een grote monitor wordt bekeken.
 
 </details>
 
@@ -258,8 +264,6 @@ Korte omschrijving met plaatjes
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Sanne: https://codepen.io/shooft/pen/GRGgeKx
 
 </details>
