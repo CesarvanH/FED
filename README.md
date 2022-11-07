@@ -160,31 +160,27 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Het tabben tussen alle interactieve items gaat goed. Wel wordt er getabt over het hamburger menu ondanks deze op display none staat. Ik weet dus niet helemaal hoe ik het anders moet oplossen.
 
 #### Screenreader
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De screenreader werkt prima op de website. Wat ik wel nog vaak mis is beschrijvingen van linkjes, afbeeldingen en knoppen maar de volgorde waarin mijn html staat is wel goed.
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+De padding rondom de knoppen zijn een beetje te klein waarom de gebruiker soms erg nauwkeurig moet klikken.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Om dit op te lossen heb ik de padding omhoog gehaald.
 
 #### Motoriek (shocks, elastiekjes)
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+Ook hier waaren eigenlijk sommige elementen erg klein en moeilijk te klikken helemaal op de telefoon.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De paddings zijn allemaal iets vergroot.
 
 #### Visueel (brillen, contrast, kleurenblind, dark/light).
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+De teksten waren erg moeilijk te lezen maar om dit op te lossen is het mogelijk de website een stuk in te zoemen en deze teksten weer duidelijk zichtbaar te maken.
 
 </details>
 
@@ -201,20 +197,18 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Nensi             | Lichelle      | Syarah              | Linsey | Cesar            |
+| ----------------- | ------------- | ------------------- | ------ | ---------------- |
+| scrollen homepage | side menu en  | css-styling menu en | ...    | html en dropdown |
+|                   | detail-pagina | detail-pagina       |        | list footer      |
+| ...               | ...           | ...                 | ...    | ...              |
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- gellukkig zat ik op de goede richting met mijn dropdown footer menu en heb ik eigenlijk de html en css helemaal goed opgebouwd.
+- Het gaat ook best makkelijk worden om dit goed uit te werken met javascript.
 
 </details>
 
@@ -223,21 +217,38 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <details>
   <summary>uitwerken voor eindgesprek</summary>
 
-### Je uitkomst - karakteristiek screenshots:
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+<img src="readme-images/result-1.png" width="375px" alt="uitomst opdracht 1">
 
 ### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+### Dit was lastig/Dit is me niet gelukt:
 
-### Dit was lastig/Is niet gelukt:
+<img src="readme-images/result-2.png" width="375px" alt="uitomst opdracht 1">
+
+### Dit ging goed/Heb ik geleerd:
 
 Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+### Dit was lastig/Dit is me niet gelukt:
+
+<img src="readme-images/result-3.png" width="375px" alt="uitomst opdracht 1">
+
+### Dit ging goed/Heb ik geleerd:
+
+Korte omschrijving met plaatjes
+
+### Dit was lastig/Dit is me niet gelukt:
+
+<img src="readme-images/result-4.png" width="375px" alt="uitomst opdracht 1">
+
+### Dit ging goed/Heb ik geleerd:
+
+Korte omschrijving met plaatjes
+
+### Dit was lastig/Dit is me niet gelukt:
+
 </details>
 
 ## Bronnenlijst
